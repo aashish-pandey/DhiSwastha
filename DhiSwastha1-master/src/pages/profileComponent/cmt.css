@@ -1,0 +1,41 @@
+
+.txarea{
+    width: 35rem;
+     height: 3rem;
+     border-radius: 25px;
+     margin-top: 5px;
+     box-shadow: 1px  1px ;
+     padding: 5pxpx ;
+
+}
+
+@media screen and (max-width:1000px) {
+    .txarea {
+        width: 20rem;
+    }
+
+}
+@media screen and (max-width:760px) {
+    .txarea{
+        width: 14rem;
+    }
+    
+}
+
+.profbox{
+   
+
+   
+}
+.profContainer{
+    width: 70%;
+    max-width: 675px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+   
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}

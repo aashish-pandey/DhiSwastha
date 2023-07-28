@@ -1,0 +1,48 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+/* body{
+    background: rgba(0, 0, 0, 0.855);
+} */
+.container23 {
+  height: 240px;
+  margin: 0 auto;
+  overflow: hidden;
+  backdrop-filter: grayscale(30%);
+  display: flex;
+  justify-content: space-evenly;
+}
+.counter_content23 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+}
+.counts_items23 {
+
+  background: #c0392b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+  text-align: center;
+  padding: 40px;
+  margin: 0 50px;
+}
+.counter_text23 {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.count_para23 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-transform: capitalize;
+}

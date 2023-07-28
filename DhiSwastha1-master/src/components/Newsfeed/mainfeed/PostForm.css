@@ -1,0 +1,30 @@
+
+.bdr{
+    width: 100%;
+    min-width: 500px;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+   
+  
+}
+
+form{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+
+#tx{
+    width: 137vw;
+    height: 3rem;
+    /* border: 2px solid blue; */
+}
+#tx{
+    border-radius: 20px;
+    
+}
+
+
+
+
+ 

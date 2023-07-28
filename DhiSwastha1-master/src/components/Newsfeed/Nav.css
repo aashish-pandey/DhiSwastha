@@ -1,0 +1,90 @@
+.navcls{
+    display: flex;
+    width: 167vw;
+    /* max-width: 100%; */
+    /* border: 2px solid red; */
+ 
+    
+}
+.centerElements{
+    display: flex;
+    margin-left: 170px;
+    margin-right: auto;
+}
+.centerEle{
+  margin: 5px;
+  padding: 5px;
+}
+
+.centerEleSecond{
+    margin-left: 100px;
+}
+
+.centerEleThird{
+    margin-left: 100px;
+}
+.centerEleFourth{
+    margin-left: 100px;
+
+}
+.centerEleFirst:hover,
+.centerEleSecond:hover,
+.centerEleThird:hover,
+.centerEleFourth:hover {
+    background-color: rgb(188, 188, 188);
+}
+
+
+.profileContent{
+    display: none;
+    width: 180px;
+        height: 150px;
+        padding: 10px;
+      border: 1px solid black;
+    
+}
+.elementLink{
+    text-decoration: none;
+    margin: 5px;
+    padding: 20px;
+}
+.profile{
+    position: relative;
+}
+
+.profile:hover .profileContent{
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    right: 1px;
+    z-index: 1;
+   
+}
+
+.profileContentElement{
+    text-decoration: none;
+    color: black;
+    margin-left: 1.5rem;
+
+}
+
+.profileContentdiv:hover ,.profileContentdiv:active{
+   
+    background-color: rgb(188, 188, 188);
+  
+    color: black;
+}
+
+.fa{
+    color: black;
+}
+@media screen and ( max-width:1300px) {
+    .centerElements{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .centerEleFirst ,.centerEleSecond ,.centerEleThird,.centerEleFourth{
+        margin: auto;
+    }
+    
+}
